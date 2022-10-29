@@ -1,0 +1,161 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Product",
+		"_postman_id": "b5730542-3c5c-0140-f2c1-117c982bc6a4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Product",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/product/product/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"category\": 1,\n    \"description\": \"This field is required.\",\n    \"price\": 1,\n    \"quantity\": 100,\n    \"name\":\"test product\",\n    \"slug\":\"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "List Product",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/product/product/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"category\": 1,\n    \"description\": \"This field is required.\",\n    \"price\": 1,\n    \"quantity\": 100,\n    \"name\":\"test product\",\n    \"slug\":\"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/product/product/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"category\": 1,\n    \"description\": \"This field is required.\",\n    \"price\": 1,\n    \"quantity\": 100,\n    \"name\":\"test product\",\n    \"slug\":\"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/product/product/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"category\": 1,\n    \"description\": \"This field is required.\",\n    \"price\": 1,\n    \"quantity\": 100,\n    \"name\":\"test product\",\n    \"slug\":\"test\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/user/login/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"username\":\"test@test.com\",\n   \"password\":\"test@test.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User Register",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/v1/user/register/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MjAyNzk3LCJpYXQiOjE2NjcwMjk5OTcsImp0aSI6IjI2MjYyOGUyZjE3NDRiNzc5MWVhMGYyODc0MjIxZDgzIiwidXNlcl9pZCI6Mn0.vu-jZUOchxPNPOWYNruehZDFtpWsV1nALDvh9UThr2Y",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"username\":\"pradeepbeniwal\",\n   \"first_name\":\"Pradeep\",\n   \"last_name\":\"kUMAR\",\n   \"password1\":\"test@test.com\",\n   \"password2\":\"test@test.com\",\n   \"email\":\"pardeepbeniwal84@test.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
