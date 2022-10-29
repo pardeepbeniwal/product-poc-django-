@@ -1,7 +1,8 @@
-Product API with django rest framework
+**Product API with django rest framework**
 
-Installation Steps
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser (to activate registered user )
-python manage.py runserver
+***Installation Steps***
+
+ 1. pip install -r requirements.txt 
+ 2. python manage.py migrate python   
+3.    manage.py createsuperuser (to activate registered user ) 
+4.    python manage.py runserver
